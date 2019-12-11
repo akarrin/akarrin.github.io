@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="4a2fcac7545a4df8aed9160c9183ef02" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="d48b5ae466d8452093153d1ed692fc44" class="chart-container" style="width:375px; height:200px;"></div>
     <script>
-        var chart_4a2fcac7545a4df8aed9160c9183ef02 = echarts.init(
-            document.getElementById('4a2fcac7545a4df8aed9160c9183ef02'), 'white', {renderer: 'canvas'});
-        var option_4a2fcac7545a4df8aed9160c9183ef02 = {
+        var chart_d48b5ae466d8452093153d1ed692fc44 = echarts.init(
+            document.getElementById('d48b5ae466d8452093153d1ed692fc44'), 'white', {renderer: 'canvas'});
+        var option_d48b5ae466d8452093153d1ed692fc44 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -51,12 +51,32 @@
             "type": "bar",
             "name": "\u5546\u5bb6A",
             "data": [
-                5,
-                20,
-                36,
-                10,
-                75,
-                90
+                114,
+                55,
+                27,
+                101,
+                125,
+                27,
+                105
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u5546\u5bb6B",
+            "data": [
+                57,
+                134,
+                137,
+                129,
+                145,
+                60,
+                49
             ],
             "barCategoryGap": "20%",
             "label": {
@@ -69,11 +89,18 @@
     "legend": [
         {
             "data": [
-                "\u5546\u5bb6A"
+                "\u5546\u5bb6A",
+                "\u5546\u5bb6B"
             ],
             "selected": {
-                "\u5546\u5bb6A": true
-            }
+                "\u5546\u5bb6A": true,
+                "\u5546\u5bb6B": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
         }
     ],
     "tooltip": {
@@ -110,9 +137,10 @@
             },
             "data": [
                 "\u886c\u886b",
-                "\u7f8a\u6bdb\u886b",
-                "\u96ea\u7eba\u886b",
+                "\u6bdb\u8863",
+                "\u9886\u5e26",
                 "\u88e4\u5b50",
+                "\u98ce\u8863",
                 "\u9ad8\u8ddf\u978b",
                 "\u889c\u5b50"
             ]
@@ -139,9 +167,14 @@
                 }
             }
         }
+    ],
+    "title": [
+        {
+            "text": "\u67d0\u5546\u573a\u9500\u552e\u60c5\u51b5"
+        }
     ]
 };
-        chart_4a2fcac7545a4df8aed9160c9183ef02.setOption(option_4a2fcac7545a4df8aed9160c9183ef02);
+        chart_d48b5ae466d8452093153d1ed692fc44.setOption(option_d48b5ae466d8452093153d1ed692fc44);
     </script>
 </body>
 </html>
